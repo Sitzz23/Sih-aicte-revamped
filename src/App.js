@@ -1,4 +1,4 @@
-import Landing from "./components/home/eminent";
+import Landing from "./components/AboutUS/History";
 
 function App() {
 	return (
