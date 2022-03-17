@@ -27,14 +27,16 @@ export default function bureaus() {
 						}}
 					/>
 				</div>
-    <Carousel className='w-[90vw] pl-[100px] pt-[10px] pb-[20px]' showThumbs={false} autoPlay={true} infiniteLoop={true} showArrows={false} showStatus={false} showIndicators={false}>
+    <Carousel className='w-[90vw] pt-[10px] pb-[20px] mx-auto' showThumbs={false} autoPlay={false} infiniteLoop={true} showArrows={false} showStatus={false} showIndicators={false}>
                 <div>
                         <p className='absolute top-[83%] z-10'>
+                            <div>
                             <p className='text-left pl-[15px] text-white font-bold'>Approval</p>
                             <p className='text-[10px] text-white text-left pl-[15px]'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore blanditiis voluptatibus explicabo corrupti a consequuntur delectus quod earum, quas fuga.</p>
                             <a href='' target="_blank"><p className='text-[15px] pt-[5px] text-left pl-[15px] text-cyan-600'>Learn More!</p></a>
+                            </div>
                         </p>
-                    <div className='absolute top-[82%] h-[80px] w-[100%] bg-black opacity-50'></div>
+                    <div className='absolute top-[83%] h-[80px] w-[100%] bg-black opacity-50'></div>
                     <img src={Img1} className="rounded-md" />
                     {/* <p className="legend">Legend 1</p> */}
                     
