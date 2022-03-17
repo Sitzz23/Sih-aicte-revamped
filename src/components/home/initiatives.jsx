@@ -5,8 +5,8 @@ import study from "../../assets/images/study.svg";
 
 export default function initiatives() {
     return (
-        <div>
-            <div className='relative w-screen py-8'>
+        <div className='overflow-x-hidden mt-18 overflow-y-hidden'>
+            <div className='relative  py-5 mb-10'>
                 <hr className=' border-orange-500 border-[0.5px]' />
                 <p className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-white px-5 text-2xl font-light'>
                     Initiatives and Schemes
@@ -33,7 +33,59 @@ export default function initiatives() {
                     width='70px'
                     className='absolute top-[77%] left-[43%]'
                 />
-                <div></div>
+                <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
+                    <p className='text-[#0C5C8C] text-2xl font-bold text-center'>
+                        Initiatives
+                        <br />
+                        and
+                        <br /> Schemes
+                    </p>
+                </div>
+
+                <div className='absolute top-[110px] -right-[10px] -translate-x-1/2 -translate-y-1/2'>
+                    <h1 className='font-semibold text-xl'>
+                        3. National e-Scholarship
+                    </h1>
+                    <p className='w-80 pt-4'>
+                        National e-Scholarship is the one-stop solution to help
+                        students seek various scholarships.
+                    </p>
+
+                    <p className='text-[#0C5C8C] font-bold pt-2'>Learn More</p>
+                </div>
+                <div className='absolute top-[550px] -right-[40px] -translate-x-1/2 -translate-y-1/2'>
+                    <h1 className='font-semibold text-xl'>
+                        4. National e-Scholarship
+                    </h1>
+                    <p className='w-80 pt-4'>
+                        National e-Scholarship is the one-stop solution to help
+                        students seek various scholarships.
+                    </p>
+
+                    <p className='text-[#0C5C8C] font-bold pt-2'>Learn More</p>
+                </div>
+                <div className='absolute top-[650px] left-[420px] -translate-x-1/2 -translate-y-1/2'>
+                    <h1 className='font-semibold text-xl'>
+                        2. National e-Scholarship
+                    </h1>
+                    <p className='w-80 pt-4'>
+                        National e-Scholarship is the one-stop solution to help
+                        students seek various scholarships.
+                    </p>
+
+                    <p className='text-[#0C5C8C] font-bold pt-2'>Learn More</p>
+                </div>
+                <div className='absolute top-[300px] left-[300px] -translate-x-1/2 -translate-y-1/2'>
+                    <h1 className='font-semibold text-xl'>
+                        1. National e-Scholarship
+                    </h1>
+                    <p className='w-80 pt-4'>
+                        National e-Scholarship is the one-stop solution to help
+                        students seek various scholarships.
+                    </p>
+
+                    <p className='text-[#0C5C8C] font-bold pt-2'>Learn More</p>
+                </div>
             </div>
         </div>
     );

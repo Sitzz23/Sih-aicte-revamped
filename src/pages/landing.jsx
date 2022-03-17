@@ -1,4 +1,5 @@
 import React from "react";
+
 import Navbar from "../components/navbar";
 import LandCar from "../components/home/land-carousel";
 import QuickLinks from "../components/home/quicklinks";
@@ -11,6 +12,7 @@ export default function landing() {
     return (
         <div>
             <Navbar />
+
             <LandCar />
             <QuickLinks />
             <Bureaus />
