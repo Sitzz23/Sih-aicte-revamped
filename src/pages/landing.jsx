@@ -11,8 +11,8 @@ export default function landing() {
     return (
         <div>
             {/* <Navbar /> */}
-            {/* <LandCar />
-            <QuickLinks /> */}
+            {/* <LandCar /> */}
+            {/* <QuickLinks /> */}
             <Bureaus />
             {/* <Initiatives />
             <Eminent />
