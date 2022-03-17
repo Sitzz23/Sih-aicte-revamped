@@ -7,13 +7,13 @@ import Initiatives from "../components/home/initiatives";
 import Scheme from "../components/home/Scheme";
 import Eminent from "../components/home/eminent";
 import Footer from "../components/footer";
+import ITICT from "../components/home/ITandICT.jsx";
 // import BureausOverview from "../components/home/BureausOverview";
 
 export default function landing() {
 	return (
 		<div className="overflow-x-hidden">
-			<Navbar />
-			<Scheme />
+			<ITICT />
 			{/* <LandCar />
 			<QuickLinks />
 
